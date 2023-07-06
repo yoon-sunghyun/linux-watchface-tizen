@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest package="yoon.sunghyun.linux_watchface" version="1.0.0" api-version="5.5" xmlns="http://tizen.org/ns/packages">
+    <author email="dev.sunghyun@gmail.com" href="https://www.github.com/yoon-sunghyun">SungHyun Yoon</author>
+    <description>Watchface for Tizen Wearable, inspired by Linux's command-line interface</description>
+    <profile name="wearable" />
+    <watch-application appid="yoon.sunghyun.linux_watchface" exec="linux_watchface.dll" api-version="6" type="dotnet" ambient-support="true">
+        <label>Linux Watchface</label>
+        <icon>linux_watchface.png</icon>
+        <metadata key="http://tizen.org/metadata/prefer_dotnet_aot" value="true" />
+        <splash-screens />
+    </watch-application>
+    <shortcut-list />
+    <privileges>
+        <privilege>http://tizen.org/privilege/alarm.set</privilege>
+        <privilege>http://tizen.org/privilege/healthinfo</privilege>
+    </privileges>
+    <dependencies />
+    <provides-appdefined-privileges />
+    <feature name="http://tizen.org/feature/sensor.heart_rate_monitor">true</feature>
+    <feature name="http://tizen.org/feature/sensor.pedometer">true</feature>
+    <feature name="http://tizen.org/feature/battery">true</feature>
+</manifest>

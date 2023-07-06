@@ -1,0 +1,16 @@
+# csproj file path
+csproj_file: linux_watchface.csproj
+
+# files monitored for dirty/modified status
+files:
+  - linux_watchface.csproj
+  - linux_watchface.cs
+  - linux_watchface_app.xaml
+  - linux_watchface_app.xaml.cs
+  - CustomColor.cs
+  - FStringVM.cs
+  - ViewModel.cs
+  - ViewModelMain.cs
+  - shared/res/JetBrainsMono.ttf
+  - shared/res/linux_watchface.png
+  - tizen-manifest.xml
